@@ -1,0 +1,124 @@
+body {
+  display: flex;
+  justify-content: center;
+  background: #00d2ff;
+  background: -webkit-linear-gradient(to right, #3a7bd5, #00d2ff);
+  background: linear-gradient(to right, #3a7bd5, #00d2ff);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+  margin: 0 auto;
+  width: 700px;
+  padding: 1rem;
+  min-height: 300px;
+  max-width: 50%;
+  border-radius: 15px;
+  background-color: #cfe8f6;
+  color: white;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.item {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1.4rem;
+  padding: 0.2rem;
+  margin-top: 1rem;
+  background-color: #ffffff;
+  color: #3a7bd5;
+  border-radius: 5px;
+}
+
+.itemsButtons {
+  display: flex;
+  align-items: center;
+}
+
+.item button:first-child {
+  color: #3a7bd5;
+  font-size: 1rem;
+  font-weight: bold;
+  background-color: transparent;
+  height: 25px;
+  width: 25px;
+  border-radius: 50%;
+  border: none;
+  background-color: #d8e5f7;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.item button:first-child:hover,
+.item button:last-child:hover {
+
+  cursor: pointer;
+}
+
+.done{
+  background-color: #3a7bd5;
+  color: #cfe8f6;
+}
+
+.item button:last-child {
+  color: #3a7bd5;
+  font-size: 1rem;
+  font-weight: bold;
+  background-color: transparent;
+  height: 25px;
+  width: 25px;
+  margin-left: 12px;
+  border-radius: 20px;
+  border: none;
+  background-color: #d8e5f7;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.card {
+  box-shadow: 0 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+}
+
+.header h1 {
+  font-size: 1.6rem;
+}
+
+/* ------Todo Form ---------- */
+
+.todoForm {
+  color: red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #3a7bd5;
+}
+
+.todoForm input {
+  padding: 0.6rem 2.2rem;
+  border: 3px solid #3a7bd5;
+  outline: none;
+}
+
+.todoForm button {
+  background-color: #3a7bd5;
+  color: white;
+  font-size: 2.1rem;
+  margin-left: -8px;
+  border: none;
+  cursor: pointer;
+}
