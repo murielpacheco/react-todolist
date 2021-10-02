@@ -57,13 +57,17 @@ ul {
   justify-content: center;
 }
 
-.item button:first-child:hover,
-.item button:last-child:hover {
-
+.item button:first-child:hover {
   cursor: pointer;
 }
 
-.done{
+.item button:last-child:hover {
+  background-color: #3a7bd5;
+  color: #cfe8f6;
+  cursor: pointer;
+}
+
+.done {
   background-color: #3a7bd5;
   color: #cfe8f6;
 }
