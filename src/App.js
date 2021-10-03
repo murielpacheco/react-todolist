@@ -3,7 +3,7 @@ import List from './components/List';
 import TodoForm from './components/TodoForm';
 import Item from './components/Item';
 
-import './Todo.css';
+import './App.css';
 
 function Todo() {
   const [items, setItems] = useState([]);
@@ -25,7 +25,7 @@ function Todo() {
 
   function onAddItem(text) {
     //adicionando um novo item preservando os demais
-    setItems()
+    setItems();
     let newItem = new Item(text);
     setItems([...items, newItem]);
   }

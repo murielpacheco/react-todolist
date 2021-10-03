@@ -113,7 +113,8 @@ ul {
 }
 
 .todoForm input {
-  padding: 0.6rem 2.2rem;
+  width: 240px;
+  height: 30px;
   border: 3px solid #3a7bd5;
   outline: none;
 }
@@ -121,8 +122,13 @@ ul {
 .todoForm button {
   background-color: #3a7bd5;
   color: white;
-  font-size: 2.1rem;
-  margin-left: -8px;
+  font-size: 1.8rem;
+  height: 38px;
+  margin-left: -12px;
   border: none;
   cursor: pointer;
 }
+.todoForm button:hover {
+  filter: brightness(1.1);
+}
+
